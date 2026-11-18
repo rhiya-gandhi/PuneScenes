@@ -1,0 +1,61 @@
+# Python bytecode and interpreter artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# Virtual environments (keep dependencies out of Git)
+venv/
+.venv/
+ENV/
+backend/venv/
+backend/.venv/
+
+# Python packaging and build output
+*.egg-info/
+build/
+dist/
+backend/staticfiles/
+
+# Django local data and uploads
+*.sqlite3
+*.sqlite3-journal
+backend/media/
+
+# Local environment variables, secrets and credentials
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+*.pem
+*.p12
+*.pfx
+
+# Logs and test/type-check caches
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node and Vite output
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.vite/
+*.local
+
+# Editor and operating system files
+.idea/
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
+Desktop.ini
